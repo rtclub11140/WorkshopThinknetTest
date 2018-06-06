@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts basic button using mount 1`] = `
+<Button
+  className="class"
+>
+  <button
+    className="class"
+  >
+    <strong>
+      Hello!
+    </strong>
+  </button>
+</Button>
+`;
+
+exports[`converts basic button using render 1`] = `
+<button
+  class="class"
+>
+  <strong>
+    Hello!
+  </strong>
+</button>
+`;
+
+exports[`converts basic button using shallow 1`] = `
+<button
+  className="class"
+>
+  <strong>
+    Hello!
+  </strong>
+</button>
+`;
